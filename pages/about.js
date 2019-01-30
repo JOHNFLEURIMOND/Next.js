@@ -1,23 +1,13 @@
-export default () => (
+import Navbar from "../components/Navbar";
+import Layout from "../components/Layout";
+
+const About = () => (
   <div>
-    <p>This is the about page</p>
-    <style jsx>{`
-      p {
-        color: #005026;
-      }
-      div {
-        background: #7dd2d0;
-      }
-      @media (max-width: 600px) {
-        div {
-          background: blue;
-        }
-      }
-    `}</style>
-    <style global jsx>{`
-      body {
-        background: #3266af;
-      }
-    `}</style>
+    <Layout>
+      <h1>About Fleurimond Crypto Watch</h1>
+      <p> Application to view Bitcoin prices</p>
+    </Layout>
   </div>
 );
+
+export default About;

@@ -5,17 +5,22 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "next"
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "chunk": "0.0.2",
+    "isomorphic-unfetch": "^3.0.0",
     "next": "^6.1.2",
     "react": "^16.7.0",
     "react-dom": "^16.7.0"
   },
   "devDependencies": {
+    "boostrap": "^2.0.0",
     "debug": "^4.1.1",
     "prettier": "^1.16.1"
   }
