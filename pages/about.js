@@ -4,8 +4,8 @@ import Layout from "../components/Layout";
 const About = () => (
   <div>
     <Layout>
-      <h1>About Fleurimond Crypto Watch</h1>
-      <p> Application to view Bitcoin prices</p>
+    <p>Check out my portfolio at <a href="https://johnfleurimond.com">Here</a></p>
+    <p>View my <a href="https://github.com/JOHNFLEURIMOND">Github</a>account</p>
     </Layout>
   </div>
 );

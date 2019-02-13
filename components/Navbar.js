@@ -5,7 +5,7 @@ const Navbar = () => (
    <div className="container">
      <a
        className="navbar-brand"
-       href="https://github.com/JOHNFLEURIMOND/Next.js"
+       href="https://johnfleurimond.com"
      >
        Fleurimond Crypto Watch
      </a>
