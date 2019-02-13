@@ -22,6 +22,7 @@
   "devDependencies": {
     "boostrap": "^2.0.0",
     "debug": "^4.1.1",
+    "postmark": "^2.2.4",
     "prettier": "^1.16.1"
   }
 }
