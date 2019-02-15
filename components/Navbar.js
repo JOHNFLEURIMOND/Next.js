@@ -1,4 +1,4 @@
-import Link from "next/link";
+import Link from 'next/link';
 
 const Navbar = () => (
  <nav className="navbar navbar-expand navbar-dark bg-dark mb-4">
