@@ -1,0 +1,1 @@
+module.exports=__NEXT_REGISTER_PAGE("/Example",function(){return{page:webpackJsonp([4],{225:function(e,n,o){e.exports=o(226)},226:function(e,n,o){"use strict";Object.defineProperty(n,"__esModule",{value:!0});var t=o(1);o.n(t);throw new Error('Cannot find module "../components/example"')}},[225]).default}});
