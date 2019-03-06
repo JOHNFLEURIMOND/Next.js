@@ -67,7 +67,7 @@ module.exports =
 /******/ 	__webpack_require__.p = "";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 5);
+/******/ 	return __webpack_require__(__webpack_require__.s = 1);
 /******/ })
 /************************************************************************/
 /******/ ([
@@ -78,112 +78,103 @@ module.exports = require("react");
 
 /***/ }),
 /* 1 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__(2);
+
+
+/***/ }),
+/* 2 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_next_link__ = __webpack_require__(2);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_next_link___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_next_link__);
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+
+// EXTERNAL MODULE: external "react"
+var external__react_ = __webpack_require__(0);
+var external__react__default = /*#__PURE__*/__webpack_require__.n(external__react_);
+
+// EXTERNAL MODULE: external "next/link"
+var link_ = __webpack_require__(3);
+var link__default = /*#__PURE__*/__webpack_require__.n(link_);
+
+// CONCATENATED MODULE: ./components/Navbar.js
 
 
 
-var Navbar = function Navbar() {
-  return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("nav", {
+var Navbar_Navbar = function Navbar() {
+  return external__react__default.a.createElement("nav", {
     className: "navbar navbar-expand navbar-dark bg-dark mb-4"
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
+  }, external__react__default.a.createElement("div", {
     className: "container"
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
+  }, external__react__default.a.createElement("a", {
     className: "navbar-brand",
     href: "https://johnfleurimond.com"
-  }, "Fleurimond Crypto Watch"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
+  }, "Fleurimond Crypto Watch"), external__react__default.a.createElement("div", {
     className: "collapse navbar-collapse"
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("ul", {
+  }, external__react__default.a.createElement("ul", {
     className: "navbar-nav ml-auto"
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("li", {
+  }, external__react__default.a.createElement("li", {
     className: "nav-item"
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_next_link___default.a, {
+  }, external__react__default.a.createElement(link__default.a, {
     href: "/"
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
+  }, external__react__default.a.createElement("a", {
     className: "nav-link"
-  }, "Home"))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("li", {
+  }, "Home"))), external__react__default.a.createElement("li", {
     className: "nav-item"
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_next_link___default.a, {
+  }, external__react__default.a.createElement(link__default.a, {
     href: "/about"
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
+  }, external__react__default.a.createElement("a", {
     className: "nav-link"
   }, "About")))))));
 };
 
-/* harmony default export */ __webpack_exports__["a"] = (Navbar);
+/* harmony default export */ var components_Navbar = (Navbar_Navbar);
+// EXTERNAL MODULE: external "next/head"
+var head_ = __webpack_require__(4);
+var head__default = /*#__PURE__*/__webpack_require__.n(head_);
 
-/***/ }),
-/* 2 */
-/***/ (function(module, exports) {
-
-module.exports = require("next/link");
-
-/***/ }),
-/* 3 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_next_head__ = __webpack_require__(4);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_next_head___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_next_head__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__components_Navbar__ = __webpack_require__(1);
+// CONCATENATED MODULE: ./components/Layout.js
 
 
 
 
-var Layout = function Layout(props) {
-  return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", null, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_next_head___default.a, null, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("title", null, " Welcome To Fleurimond Crypto Watch"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("link", {
+var Layout_Layout = function Layout(props) {
+  return external__react__default.a.createElement("div", null, external__react__default.a.createElement(head__default.a, null, external__react__default.a.createElement("title", null, " Welcome To Fleurimond Crypto Watch"), external__react__default.a.createElement("link", {
     rel: "stylesheet",
     href: "https://bootswatch.com/4/superhero/bootstrap.min.css"
-  })), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2__components_Navbar__["a" /* default */], null), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
+  })), external__react__default.a.createElement(components_Navbar, null), external__react__default.a.createElement("div", {
     className: "container"
   }, props.children));
 };
 
-/* harmony default export */ __webpack_exports__["a"] = (Layout);
+/* harmony default export */ var components_Layout = (Layout_Layout);
+// CONCATENATED MODULE: ./pages/about.js
+
+
+
+
+var about_About = function About() {
+  return external__react__default.a.createElement("div", null, external__react__default.a.createElement(components_Layout, null, external__react__default.a.createElement("p", null, "Check out my portfolio at ", external__react__default.a.createElement("a", {
+    href: "https://johnfleurimond.com"
+  }, "Here")), external__react__default.a.createElement("p", null, "View my ", external__react__default.a.createElement("a", {
+    href: "https://github.com/JOHNFLEURIMOND"
+  }, "Github"), "account")));
+};
+
+/* harmony default export */ var about = __webpack_exports__["default"] = (about_About);
+
+/***/ }),
+/* 3 */
+/***/ (function(module, exports) {
+
+module.exports = require("next/link");
 
 /***/ }),
 /* 4 */
 /***/ (function(module, exports) {
 
 module.exports = require("next/head");
-
-/***/ }),
-/* 5 */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__(6);
-
-
-/***/ }),
-/* 6 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__components_Navbar__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__components_Layout__ = __webpack_require__(3);
-
-
-
-
-var About = function About() {
-  return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", null, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2__components_Layout__["a" /* default */], null, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", null, "Check out my portfolio at ", __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
-    href: "https://johnfleurimond.com"
-  }, "Here")), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", null, "View my ", __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
-    href: "https://github.com/JOHNFLEURIMOND"
-  }, "Github"), "account")));
-};
-
-/* harmony default export */ __webpack_exports__["default"] = (About);
 
 /***/ })
 /******/ ]);
