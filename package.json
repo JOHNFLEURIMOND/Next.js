@@ -8,6 +8,7 @@
     "dev": "next",
     "build": "next build",
     "start": "node server.js -p $PORT",
+    "prettier": "prettier --write src/**/*.{ts,tsx,js}",
     "heroku-postbuild": "npm run build"
   },
   "keywords": [],
