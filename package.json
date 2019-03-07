@@ -9,7 +9,7 @@
     "build": "next build",
     "start": "nodemon server.js -p $PORT",
     "prettier": "prettier --write src/**/*.{ts,tsx,js}",
-    "heroku-postbuild": "echo Skip build on Heroku"
+    "heroku-postbuild": "npm run build"
   },
   "keywords": [],
   "author": "",
