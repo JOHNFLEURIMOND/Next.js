@@ -1,7 +1,7 @@
 //server.js
 const express = require('express');
 const path = require('path');
-const PORT = process.env.PORT || 8888;
+const PORT = process.env.PORTS;
 const app = express();
 
 // the __dirname is the current directory from where the script is running
