@@ -15,6 +15,8 @@
   "license": "ISC",
   "dependencies": {
     "chunk": "0.0.2",
+    "boostrap": "^2.0.0",
+    "debug": "^4.1.1",
     "express": "^4.16.4",
     "express-favicon": "^2.0.1",
     "isomorphic-unfetch": "^3.0.0",
@@ -24,9 +26,7 @@
     "react-dom": "^16.7.0"
   },
   "devDependencies": {
-    "boostrap": "^2.0.0",
-    "debug": "^4.1.1",
-    "postmark": "^2.2.4",
     "prettier": "^1.16.1"
-  }
+  },
+  "heroku-run-build-script": true
 }
