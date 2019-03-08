@@ -12,7 +12,7 @@ app.get('/ping', function (req, res) {
 });
 
 app.get('/*', function (req, res) {
-  res.sendFile(path.join(__dirname, 'build', 'index.html'));
+  res.sendFile(path.join(__dirname, 'index.html'));
 });
 
 // Listen to whatever port above.
