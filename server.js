@@ -12,13 +12,16 @@ app.use(
     extended: false,
   }),
 );
+app.use(express.static(__dirname));
+app.use(express.static(path.join(__dirname, 'build')));
+app.get('/ping', function (req, res) {
+  return res.send('pong');
+});
 
-  app.use(express.static('build'));
+app.get('/*', function (req, res) {
+  res.sendFile(path.join(__dirname,'build', 'index.html'));
+});
 
-  // Express serve up index.html file if it doesn't recognize route
-  app.get('*', (req, res) => {
-    res.sendFile(path.resolve(__dirname,'build', 'index.html'));
-  
 
 // Listen to whatever port above.
 app.listen(PORT, () => {
