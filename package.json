@@ -1,8 +1,7 @@
 {
-  "name": "hello-next",
+  "name": "heroku-nextjs",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Deploy Next.js server-side React apps to Heroku",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "next",
@@ -11,12 +10,26 @@
     "prettier": "prettier --write src/**/*.{ts,tsx,js}",
     "heroku-postbuild": "npm run build"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "engines": {
+    "node": "10"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mars/heroku-nextjs.git"
+  },
+  "keywords": [
+    "react",
+    "ssr",
+    "server-side-rendering"
+  ],
+  "author": "Mars Hall",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mars/heroku-nextjs/issues"
+  },
+  "homepage": "https://github.com/mars/heroku-nextjs#readme",
   "dependencies": {
     "chunk": "0.0.2",
-    "concurrently": "^4.1.0",
     "boostrap": "^2.0.0",
     "debug": "^4.1.1",
     "express": "^4.16.4",
@@ -27,9 +40,5 @@
     "path": "^0.12.7",
     "react": "^16.7.0",
     "react-dom": "^16.7.0"
-  },
-  "devDependencies": {
-    "prettier": "^1.16.1"
-  },
-  "heroku-run-build-script": true
+  }
 }
